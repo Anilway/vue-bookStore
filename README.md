@@ -313,7 +313,7 @@ components目录下存放的是页面组件；base目录下存放的是基础组
 }
 ```
 
-![](img/12-02.png)
+![](img/12-02.PNG)
 
 再此基础上，我们给.box添加`display=flex`：
 
@@ -334,7 +334,7 @@ components目录下存放的是页面组件；base目录下存放的是基础组
 
 布局就变成了：
 
-![](img/12-03.png)
+![](img/12-03.PNG)
 
 更详细的使用介绍请看阮一峰写的：[Flex 布局教程：实例篇](http://www.ruanyifeng.com/blog/2015/07/flex-examples.html)
 
@@ -368,7 +368,7 @@ if(typeof id !=='undefined'){...}
 
 为我们的vue-book添加loading效果。
 
-![](img/12-04.png)
+![](img/12-04.PNG)
 
 如图是现在的vue-book的完成情况，我们现在想实现的效果是对首页添加loading效果，而列表页、收藏页、添加页不需要loading效果。
 
@@ -487,7 +487,7 @@ routes:[
 
 在上面设置页面缓存的时候，我们给每个路由也添加了title信息。我们希望实现的是在切换页面的时候，每个页面的标签也跟着切换显示当前页面的名称。
 
-![](img/12-14.png)
+![](img/12-14.PNG)
 
 我们可以根据每个路由的元信息，在每个路由页面里面设置：
 
@@ -550,7 +550,7 @@ router.beforeEach((to,from,next)=>{
 
 beforeEach里面接收一个回调函数。这个回调函数里面有三个参数。其中第一个参数代表当前要进入的路由对象。打印如下：
 
-![](img/12-15.png)
+![](img/12-15.PNG)
 
 我现在要点击的是home页，所以在进入之前，执行beforeEach，得到home路由对象。可以看到里面保存了path、我们设置的原信息等。
 
@@ -752,7 +752,7 @@ this.$refs.scroll.addEventListener('scroll',function(){
 import VueLazyload from 'vue-lazyload'
 Vue.use(VueLazyload,{
     preload:1.3,
-    error:'assets/error.png',
+    error:'assets/error.PNG',
     loading:'assets/loading.gif',
     attempt:1
 });
@@ -805,7 +805,7 @@ export default router;
 
 这种写法，在问价打包的时候，会把所有的文件打包成一个整体，文件会非常大，这样在加载页面时，可能会影响用户体验。
 
-![](img/12-12.png)
+![](img/12-12.PNG)
 
 所以，最好是根据访问的路由不同，动态加载每个页面的js文件。
 

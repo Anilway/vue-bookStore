@@ -8,14 +8,14 @@
 
 ```bash
 # clone
-git clone
+git clone https://github.com/Anilway/vue-bookStore.git
 ```
 
 项目初始化：
 
 ```bash
 # 在../vue-book/vue-book目录下进行以下初始化操作
-# 安装依赖
+# install dependency
 npm install
 
 # serve with hot reload at localhost:8080
@@ -39,9 +39,25 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 ## 项目预览
 
-| 首页            | 列表页          | 详情页          | 购物车          | 添加页          |
-| --------------- | --------------- | --------------- | --------------- | --------------- |
-| ![](img/01.png) | ![](img/02.png) | ![](img/07.png) | ![](img/04.png) | ![](img/05.png) |
+### 首页
+
+![](img/01.PNG)
+
+### 列表页
+
+![](img/02.PNG)
+
+### 详情页
+
+![](img/07.PNG)
+
+### 购物车
+
+![](img/04.PNG)
+
+### 添加页
+
+![](img/05.PNG)
 
 
 
